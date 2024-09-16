@@ -60,6 +60,11 @@ plan:
             path: contracts/foo.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: bar-2
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/bar-2.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: impl
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/impl.clar
